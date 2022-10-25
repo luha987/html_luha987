@@ -1,0 +1,63 @@
+<h1><center>ABSENSI IKUT KELAS LAIN</center></h1>
+<form action="index.html" method="get">
+    <table border="0">
+        <tr><td>Nim</td><td>:</td><td> <input type="number" name="nim" size="20" maxlength=“13“ placeholder="Masukkan Nim Anda" required></td>
+        </tr>
+        <tr>
+        <td>Nama</td><td>:</td><td> <input type="text" name="nama" size="20" maxlength=“50“ placeholder="Masukkan Nama Anda" required></td>
+        </tr>
+        <tr>
+        <td>Jenis kelamin</td><td>:</td><td><input type="radio" name="kelamin" value="L" checked>Laki-laki<br>
+        <input type="radio" name="kelamin" value="P">Perempuan<br></td>
+        </tr>
+        <tr>
+        <td>Nama Dosen Penggampu</td><td>:</td><td> <input type="text" name="nama" size="20" maxlength=“50“ placeholder="Nama Dosen Penggampu" required></td>
+        </tr>
+        <tr>
+        <td>Nama Dosen Pengganti</td><td>:</td><td> <input type="text" name="nama" size="20" maxlength=“50“ placeholder="Nama Dosen Pengganti" required></td>
+        </tr>
+        <tr>
+        <td>Mata Kuliah</td><td>:</td><td> <select name="jurusan">
+            <option value="10802">---Pilih Salah Satu--</option>
+            <option value="10802">Pemprograman Berbasis Web</option>
+            <option value="10201">Teori Bahasa</option>
+            <option value="10207">Akuntansi</option>
+            <option value="10202">Sistem operasi</option>
+            <option value="10402">Technopreneurship</option>
+            <option value="10407">Aljabar Linier</option>
+            </select></td>
+        </tr>
+        <tr>
+        <td>Kelas</td><td>:</td><td> <select name="kelas">
+            <option value="10802">---Pilih Salah Satu--</option>
+            <option value="10802">A1</option>
+            <option value="10201">A2</option>
+            <option value="10207">A3</option>
+            <option value="10202">A4</option>
+            <option value="10402">B1</option>
+            <option value="10407">B2</option>
+            </select></td>
+        </tr>
+        <tr>
+        <td>Nilai UTS</td><td>:</td><td> <input type="number" name="uts" size="20" maxlength=“3“ placeholder="Masukkan Nilai UTS" required></td>
+        </tr>
+        <tr>
+        <td>Tanggal</td><td>:</td><td> <input type="date" name="tanggal" size="20" maxlength=“10“ required></td>
+        </tr>
+        <tr>
+        <td>Materi Kuliah</td><td>:</td><td> <textarea name="materi" rows="3" cols="25" placeholder="Tulis Materi Yang Anda Pelajari" required></textarea></td>
+        </tr>
+        <tr>
+        <td>Email</td><td>:</td><td> <input type="email" name="email" rows="3" cols="25" placeholder="Tulis Email Anda" required></td>
+        </tr>
+        <tr><td>Tanda Tangan Dosen Penggampu</td><td>:</td><td><input type="file" name="file" required></td></tr>
+        <tr><td colspan="2"><td>
+        <tr><td>Tanda Tangan Dosen Pengganti</td><td>:</td><td><input type="file" name="file" required></td></tr>
+        <tr><td colspan="2"><td>
+        <tr>
+        <td>
+        <input type="submit" value="Simpan">   <input type="reset" value="Batal">
+        </td>
+        </tr>
+    </table>
+</form>
